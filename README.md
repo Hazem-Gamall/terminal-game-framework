@@ -16,5 +16,5 @@ Mini framework for helping with simple 2D text-based terminal games.
   * [avoid the cats!](https://github.com/Hazem-Gamall/avoid-the-cats)
   
   ## libraries used:
-  * [minaudio](https://github.com/mackron/miniaudio) -for audio hanling.
+  * [minaudio](https://github.com/mackron/miniaudio) -for sound hanling.
   * [ncurses](https://invisible-island.net/ncurses) -for interfacing with the terminal.
