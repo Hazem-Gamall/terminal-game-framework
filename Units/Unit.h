@@ -6,7 +6,11 @@
 
 class Unit{
 public:
-
+    virtual ~Unit(){
+        delete texture;
+        delete position;
+        delete velocity;
+    }
     virtual TextureObject* getTexture(){return texture;};
 
     virtual void update() =0;

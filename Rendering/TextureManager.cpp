@@ -16,6 +16,7 @@ void TextureManager::editTexutre(std::string id, TextureObject* texture){
 }
 
 void TextureManager::deleteTexture(std::string id){
+    delete textures[id];
     textures.erase(id);
 }
 
