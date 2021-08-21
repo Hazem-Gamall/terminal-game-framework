@@ -7,6 +7,10 @@ GraphicObject::GraphicObject(std::string id, TextureObject* tex, Vector2D* pos){
     TextureManager::getInstance()->addTexture(textureID, tex);
 }
 
+GraphicObject::~GraphicObject(){
+    delete position;
+}
+
 void GraphicObject::draw(){
     TextureManager::getInstance()->drawTexture(textureID, position);
 }

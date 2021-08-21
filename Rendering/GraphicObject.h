@@ -8,6 +8,7 @@
 class GraphicObject{
 public:
     GraphicObject(std::string id, TextureObject* texture, Vector2D* position);
+    ~GraphicObject();
     void draw();
     void update();
 private:
