@@ -18,6 +18,7 @@ public:
     void deleteTexture(std::string id);
 
     void drawTexture(std::string id, Vector2D* position);
+    TextureObject* getTexture(std::string id);
 
 private:
     TextureManager(){}

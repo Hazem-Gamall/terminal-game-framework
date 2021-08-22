@@ -6,8 +6,11 @@
 
 class Unit{
 public:
-
-    virtual TextureObject* getTexture(){return texture;};
+    virtual ~Unit(){
+        delete position;
+        delete velocity;
+    }
+    virtual TextureObject* getTexture(){return TextureManager::getInstance()->getTexture(textureID);};
 
     virtual void update() =0;
 
@@ -22,7 +25,6 @@ public:
     }
 
 protected:
-    TextureObject* texture;
     std::string textureID;
     Vector2D* position;
     Vector2D* velocity;

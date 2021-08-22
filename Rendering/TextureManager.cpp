@@ -16,6 +16,7 @@ void TextureManager::editTexutre(std::string id, TextureObject* texture){
 }
 
 void TextureManager::deleteTexture(std::string id){
+    delete textures[id];
     textures.erase(id);
 }
 
@@ -24,4 +25,13 @@ void TextureManager::drawTexture(std::string id, Vector2D* position){
     if(it != textures.end()){//found
         TerminalHandler::getInstance()->drawToTerminal(textures[id], position);
     }
+}
+
+TextureObject* TextureManager::getTexture(std::string id){
+    auto it = textures.find(id);
+    if(it != textures.end()){//found
+        return textures[id];
+    }
+    else 
+        return 0;
 }
