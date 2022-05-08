@@ -25,7 +25,11 @@ Mini framework for helping with simple 2D text-based terminal games.
  
       ![snake gif](https://github.com/Hazem-Gamall/terminal-game-framework/blob/master/gifs/terminal_snake.gif)
 
+  ## Future plans
+  * Refactor the code to rely more on stack objects and smart pointers instead of C pointers for better memory managment.
+  * Add audio support.
+  * Improve the Design of the code and employ more Design patterns and OOP principles.
   
-  ## libraries used:
-  * [minaudio](https://github.com/mackron/miniaudio) -for sound hanling.
+  
+  ## Libraries used:
   * [ncurses](https://invisible-island.net/ncurses) -for interfacing with the terminal.
