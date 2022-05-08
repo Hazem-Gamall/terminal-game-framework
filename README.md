@@ -12,8 +12,9 @@ Mini framework for helping with simple 2D text-based terminal games.
   * Input Handling.
   
   ## Games made using this framework:
-  * [breakout](https://github.com/Hazem-Gamall/terminal-breakout-game)
-  * [avoid the cats!](https://github.com/Hazem-Gamall/avoid-the-cats)
+  * [breakout](https://github.com/Hazem-Gamall/terminal-game-framework/tree/master/breakout)
+  * [avoid the cats!](https://github.com/Hazem-Gamall/terminal-game-framework/tree/master/avoid_the_cats)
+  * [terminal_snake](https://github.com/Hazem-Gamall/terminal-game-framework/tree/master/terminal_snake)
   
   ## libraries used:
   * [minaudio](https://github.com/mackron/miniaudio) -for sound hanling.
